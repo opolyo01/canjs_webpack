@@ -1,0 +1,62 @@
+'use strict';
+
+module.exports = {
+    all: [
+        './Gruntfile.js',
+        './config/grunt/**/*.js',
+        './src/**/*.js*'
+    ],
+    options: {
+        nonew: false,
+        plusplus: false,
+        camelcase: false,
+        maxdepth: 5,
+        bitwise: true,
+        curly: true,
+        eqeqeq: true,
+        forin: true,
+        freeze: true,
+        immed: true,
+        latedef: true,
+        newcap: true,
+        noarg: true,
+        node: true,
+        noempty: true,
+        nonbsp: true,
+        undef: true,
+        unused: true,
+        strict: true,
+        maxparams: 4,
+        maxstatements: 20,
+        maxcomplexity: 50,
+        maxlen: 200,
+        white: true,
+        devel: false,
+        browser: true,
+        indent: 4,
+        predef: [
+            'require',
+            'module',
+            '__dirname',
+            'jasmine',
+            'expect',
+            'jasmine',
+            'describe',
+            'xdescribe',
+            'fdescribe',
+            'before',
+            'beforeEach',
+            'beforeAll',
+            'after',
+            'afterEach',
+            'afterAll',
+            'it',
+            'xit',
+            'fit',
+            'inject',
+            'expect',
+            'spyOn',
+            'console'
+        ]
+    }
+};
